@@ -15,5 +15,9 @@ fun main(args: Array<String>) {
         println("$array")
     }
 
+    //Ejercico 3
+
+    Ejercicio3().numerosImpares(Ejercicio2(10){ Random.nextInt(50,250) }.array)
+
 
 }
